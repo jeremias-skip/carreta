@@ -161,15 +161,6 @@ body{
 .gallery-controls-next:hover::before{
     right: -40px;
 }
-.audio{
-    bottom: -15px;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    position: absolute;
-    width: 100%;
-}
 .gallery-nav{
     bottom: -15px;
     display: flex;
@@ -188,7 +179,6 @@ body{
 }
 .gallery-nav li.gallery-item-selected{
     background: #555;
-
 }
 
 
