@@ -8,7 +8,7 @@ function shineEffect() {
     currentIndex = (currentIndex + 1) % shineSpans.length;
     setTimeout(() => {
         window.requestAnimationFrame(shineEffect);
-    }, 80);
+    }, 200);
 }
 shineEffect();
 
