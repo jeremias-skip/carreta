@@ -22,19 +22,19 @@ body{
 
 @keyframes explode {
     0% {
-        transform: scale(0); /* Inicialmente no visible */
+        transform: scale(0); 
     }
     100% {
-        transform: scale(1); /* Aparece con tamaño normal */
+        transform: scale(1);
     }
 }
 
 @keyframes fall {
     0% {
-        transform: translateY(-100vh); /* Comienza fuera de la pantalla */
+        transform: translateY(-100vh); 
     }
     100% {
-        transform: translateY(50vh); /* Termina fuera de la pantalla */
+        transform: translateY(50vh);
     }
 }
 .title {
